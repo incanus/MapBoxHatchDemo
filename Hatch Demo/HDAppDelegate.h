@@ -8,12 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@class HDViewController;
-
 @interface HDAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) HDViewController *viewController;
 
 @end
